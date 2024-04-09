@@ -1,0 +1,157 @@
+.navbar-nav .nav-link {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-link .bi {
+    font-size: 24px;
+    margin-right: 8px;
+}
+
+h1 {
+    color: #e2bb39;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #1d253e;
+    margin: auto;
+    padding: 1rem;
+}
+
+#main-nav {
+    background-color: #1d253e !important;
+}
+
+.navbar-toggler {
+    width: auto;
+}
+
+#sec-nav {
+    background-color: #222222 !important;
+    border-radius: 0.5rem;
+    margin: auto;
+    max-width: 55%;
+}
+
+@media (max-width: 991.98px) {
+    #sec-nav {
+        background-color: transparent !important;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff !important;
+
+}
+
+.timer {
+    padding-top: 2%;
+}
+
+#clock {
+    color: #e2bb39;
+    font-size: 25px;
+    margin-left: 7.4%;
+    margin-right: 0.2%;
+}
+
+#countdown {
+    color: #e2bb39;
+    font-size: 25px;
+}
+
+.text-container {
+    word-spacing: 6px;
+    line-height: 41.3px;
+    position: relative;
+    font-size: 27px;
+    color: #888;
+    border-bottom: 2px solid #d4af37;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+    max-height: 350px;
+}
+.text-container::-webkit-scrollbar {
+    display: none; 
+}
+
+#typing-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    font-size: 24px;
+    border: none;
+    background: none;
+    caret-color: #fff;
+    color: #fff;
+
+    outline: none;
+
+}
+
+.selected {
+    color: #d4af37 !important;
+}
+
+.correct-char {
+    color: #4caf50;
+
+}
+
+.incorrect-char {
+    color: #f44336;
+
+}
+
+.cursor {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    color: #d4af37;
+    font-size: 24px;
+    animation: blink 1s infinite;
+}
+
+.hide {
+    display: none;
+}
+
+hr {
+    color: #d4af37;
+    margin-top: 2px;
+    border-top-width: 1.5px;
+}
+
+.dropdown-menu .dropdown-item.active,
+.dropdown-menu .dropdown-item:active {
+    background-color: transparent !important;
+}
+.dropdown-item:hover {
+    background-color: transparent !important; 
+}
+
+
+
+
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
